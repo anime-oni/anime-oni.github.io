@@ -13,3 +13,6 @@ h2 {
 a:link {
   color: SlateBlue;
 }
+a:visited {
+  color: green;
+}
