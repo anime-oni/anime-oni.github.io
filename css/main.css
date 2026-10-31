@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+  color: #ffffff;
+  background-color: #36393e;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "M PLUS Rounded 1c", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  font-style: normal;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  gap: 10px;
+}
+
+.box {
+  background-color: #1e2124;
+  border: 2px solid black;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.flex-box {
+  flex: 1;
+  max-width: 300px;
+  min-width: 0;
+
+  background-color: #282b30;
+  border: 2px solid black;
+  padding: 10px;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.code {
+  font-family: "Courier New", monospace;
+  background-color: #282b30;
+  border: 1px solid #333;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+  display: inline-block;
+  overflow-wrap: break-word;
+  white-space: normal;
+  word-break: break-word;
+  font-size: 14px;
+}
+
+.box:hover,
+.flex-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+}
+
+/* Links */
+a:link {
+  color: #7289da;
+}
+
+a:visited {
+  color: #5865F2;
+}
+
+a:hover {
+  color: #666fff;
+}
+
+a:active {
+  color: #5865F2;
+}
+
+p:hover,
+br:hover {
+  background-color: #36393e;
+}
